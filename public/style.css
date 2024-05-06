@@ -1,0 +1,55 @@
+.song_card{
+    display: grid;
+    grid-template-rows: 350px auto;
+    background-color: rgba(245 245 245 / 70%);
+    width:389px;
+    min-height:560px;
+    border-radius: 5%;
+    margin: 0 auto;
+    margin-top: 80px;
+    box-shadow: 3px 3px 3px gray;
+}
+.album_cover {
+    width: 250px;
+    height: 250px;
+    align-self: center;
+    justify-self: center;
+}
+.song_info {
+    display: grid;
+    grid-template-rows: 4fr 60px;
+    font-family: 'rubik';
+    border-top: 1px solid #706e6e;
+    
+}
+.song_info h1{
+    font-weight: 500;
+}
+.song_info h2{
+    font-weight: 400;
+    opacity: 70%;
+}
+.song_text {
+    margin: 20px;
+    margin-bottom: 10px;
+}
+.song_link {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 308px;
+    margin-bottom: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.song_link button{
+    border: none;
+    background: none;
+}
+.song_link img{
+    width: 50px;
+    height: 50px;
+}
+.cover_div {
+    display: grid;
+}
